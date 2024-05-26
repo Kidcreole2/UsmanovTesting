@@ -6,8 +6,9 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v4
-            - name: run tests
+            - name: go to tests
               run: cd lab1/tests
-            - run: go test
+            - name: run tests
+              run: go test
 
 

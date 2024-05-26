@@ -7,7 +7,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
               with:
-                    repository: 'lad7'
+                    repository: 'Kidcreole2/lad7'
             - name: run tests
               run: cd lab1/tests
             - run: go test

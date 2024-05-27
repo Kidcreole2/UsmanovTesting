@@ -1,3 +1,3 @@
-module TesingLab/lab1
+module lab1
 
-go 1.20
+go 1.18

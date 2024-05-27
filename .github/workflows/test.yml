@@ -1,14 +1,10 @@
 name: Test
-on: push
+on: fork
 jobs:
     test: 
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
               uses: actions/checkout@v4
-            - name: go to tests
-              run: cd lab1/tests
             - name: run tests
-              run: go test
-
-
+              run: go test TesingLab/lab1 ./tests

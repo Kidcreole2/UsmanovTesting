@@ -1,7 +1,7 @@
 package lab1
 
 import (
-	"TesingLab/lab1"
+	"lab1"
 	"testing"
 )
 

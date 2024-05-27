@@ -2,8 +2,8 @@ package functions
 
 import (
 	"fmt"
-	"lab2"
-	"lab2/functions"
+	"lab7/lab2"
+	"lab7/lab2/functions"
 	"math"
 	"testing"
 )

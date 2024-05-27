@@ -1,7 +1,7 @@
 package lab1
 
 import (
-	"lab1"
+	"lab7/lab1"
 	"testing"
 )
 

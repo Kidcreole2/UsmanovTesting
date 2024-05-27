@@ -1,7 +1,7 @@
 package lab2
 
 import (
-	"lab2/functions"
+	"lab7/lab2/functions"
 	"math"
 )
 
